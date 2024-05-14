@@ -1,6 +1,6 @@
 {
-  "name": "tomymehdi/formiojs",
-  "version": "4.19.2-custom.1",
+  "name": "@tomymehdi/formiojs",
+  "version": "4.19.2-custom.2",
   "description": "JavaScript powered Forms with JSON Form Builder",
   "main": "index.js",
   "types": "index.d.ts",
