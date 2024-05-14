@@ -60,6 +60,10 @@ export function evaluate(func, args, ret, tokenize) {
     args.form = _.get(args.instance, 'root._form', {});
   }
 
+  if (!args.oeContext) {
+    args.oeContext = { 'testing1': 'testing1', 'testing2': 2 };
+  }
+
   const componentKey = component.key;
 
   if (typeof func === 'string') {
